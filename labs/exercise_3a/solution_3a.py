@@ -12,9 +12,9 @@ with open('rock.csv', 'rb') as rock_data:
     	if row[2] =='1981':
     		count += 1
 
+    print "The number of songs released in 1981 was:"
     print count
 
-rock_data.close()
 
 """"
     #read the header of the file
